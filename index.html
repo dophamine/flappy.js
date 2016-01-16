@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flappy</title>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/jquery.gsap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/fonts/3dumb_regular_macroman/stylesheet.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="view">
+			<h2 id = "points">0</h2>
+			<div id="result"><span>your score: <br><strong> </strong></span></div>
+			<div id="game">
+				<div class="layer" id="bg"></div>
+				<div class="layer" id="combat">
+					<div id="tubes">
+						<div class="barrier">
+							<div class="tube top"></div>
+							<div class="tube bot"></div>
+						</div>
+							
+					</div>
+					<div id="bird">
+						<div id="bird-anim"></div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/game.js"></script>
+</body>
+</html>
